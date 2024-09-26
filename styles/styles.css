@@ -31,7 +31,7 @@ main {
 
 aside{
     width: 20rem;
-    margin: 1 rem;
+    margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
@@ -47,7 +47,7 @@ aside img {
 
 main img {
     width: 150px;
-    height: quto;
+    height: auto;
 }
 
 footer {
