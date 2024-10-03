@@ -19,27 +19,27 @@ header {
 }
 
 .logo {
-    margin-left: 20px; /* Moves the logo away from the left side */
-    margin-right: auto; /* Optional: pushes it to the left */
-    display: block; /* Ensures the image behaves as a block element */
+    margin-left: 20px; 
+    margin-right: auto; 
+    display: block; 
 }
 
 .nav-links {
-    margin-left: 20px; /* Moves the navigation away from the left side */
-    text-align: left; /* Aligns the links to the left */
+    margin-left: 20px; 
+    text-align: left; 
 }
 
 .nav-links a {
-    color: #fff; /* Ensure text color is white */
-    text-decoration: none; /* Remove underline */
-    margin: 0 15px; /* Space between links */
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 15px; 
 }
 
 .hero {
     position: relative;
     text-align: center;
     color: white;
-    padding: 20px 0; /* Adjust for top/bottom spacing */
+    padding: 20px 0; 
 }
 
 .hero img {
@@ -50,27 +50,27 @@ header {
 
 .happy-rafter {
     position: absolute;
-    top: 30%; /* Adjust this value if needed */
-    right: 5%; /* Adjust to position it inside the hero image */
-    width: 200px; /* Set a smaller width */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 30%; /* Ensures it doesn’t exceed a certain width */
+    top: 30%; 
+    right: 5%; 
+    width: 200px; 
+    height: auto; 
+    max-width: 30%;
 }
 
 
 
 .hero-title {
-    position: absolute; /* Position the title absolutely */
-    top: 20%; /* Adjust vertical position */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Center the title */
-    background-color: rgba(0, 0, 0, 0.7); /* Black background with transparency */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Vertical and horizontal padding */
-    margin: 0; /* No margin */
-    box-sizing: border-box; /* Include padding in width calculations */
-    border: 2px solid black; /* Black border */
-    max-width: 80%; /* Set a maximum width for the border */
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    padding: 10px 20px; 
+    margin: 0;
+    box-sizing: border-box; 
+    border: 2px solid black; 
+    max-width: 80%;
 }
 
 article {
@@ -83,36 +83,35 @@ article {
 }
 
 section {
-    padding: 0 40px; /* Add horizontal padding */
+    padding: 0 40px; 
 }
 
 section h2 {
     padding: 0 40px;
-    margin: 20px 0; /* Add vertical margin */
-    text-align: left; /* Align text to the left */
+    margin: 20px 0;
+    text-align: left; 
 }
 
 section p {
-    padding: 0 40px; /* No horizontal padding for paragraph */
-    margin: 10px 0; /* Add vertical margin */
-    text-align: left; /* Align text to the left */
+    padding: 0 40px; 
+    margin: 10px 0; 
+    text-align: left; 
 }
 
 .image-container { 
     display: flex;
-    flex-direction: column; /* Stack images vertically */
-    align-items: flex-start; /* Center images horizontally */
+    flex-direction: column;
+    align-items: flex-start; 
     padding: 20px;
     margin: 0 20px;
-    max-width: 1100px; /* Center align images horizontally */
+    max-width: 1100px; 
 }
 
 .adventure-image {
-    width: 60%; /* Adjust the width to a smaller size */
-    max-width: 400px; /* Set a maximum width for the images */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px 0; /* Space between images */
-}
+    width: 60%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 10px 0; 
 
 footer {
     background-color: var(--accent-color2);
@@ -124,7 +123,7 @@ footer {
 .sociallinks img {
     width: 32px;
     height: 32px;
-    margin: 0 5px; /* Space between social icons */
+    margin: 0 5px;
 }
 
 .sociallinks {
