@@ -161,8 +161,13 @@ footer .sociallinks img {
 }
 
 
-.adventures {
-    padding: 20px;
+.adventure-title {
+    margin: 20px; 
+    text-align: center; 
+}
+
+.adventure-title h2 {
+    margin: 20px;
 }
 
 .adventure-images {
@@ -182,4 +187,12 @@ footer .sociallinks img {
     width: 200px;
     height: 150px;
     object-fit: cover;
+}
+
+.history-image {
+    display: block;
+    width: 100;
+    height: auto;
+    margin: 20px auto;
+    max-width: 400px;
 }
