@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Contact Us - Rafting Company</title>
+   <meta name="description" content="Contact us for inquiries about our rafting services. We're here to help!">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+   <header>
+       <img src="images/rafting.png" alt="Rafting Company Logo" class="logo" width="200">
+       <nav class="nav-links">
+           <a href="index.html">Home</a>
+           <a href="about.html">About</a>
+           <a href="trips.html">Trips</a>
+           <a href="contact.html">Contact</a>
+       </nav>
+   </header>
+
+   <main>
+       <h2>Contact Information</h2>
+       <p>Address: 123 Rafting Rd, River City, RA 12345</p>
+       <p>Phone: (123) 456-7890</p>
+       <p>Email: info@raftingcompany.com</p>
+
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18...YOUR_MAP_LINK_HERE!" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+       <h2>Our Team</h2>
+       <div class="team-member">
+           <img src="images/employee1.png" alt="Employee 1" class="team-image"/>
+           <caption>Recreation Manager</caption>
+       </div>
+       <div class="team-member">
+           <img src="images/employee2.png" alt="Employee 2" class="team-image"/>
+           <caption>Reservationist</caption>
+       </div>
+       <div class="team-member">
+           <img src="images/employee3.jpg" alt="Employee 3" class="team-image"/>
+           <caption>River Guide</caption>
+       </div>
+
+       <h2>Contact Form</h2>
+       <form action="#" method="post">
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required>
+
+           <fieldset>
+               <legend>Purpose of Message:</legend>
+               <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+               <label for="general">General Inquiry</label>
+               <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+               <label for="reservation">Reservation Question</label>
+               <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+               <label for="suggestion">Website Suggestion</label>
+           </fieldset>
+
+           <label for="message">Message:</label>
+           <textarea id="message" name="message" required></textarea>
+
+           <label>
+               <input type="checkbox" name="subscribe" value="subscribe"> Please subscribe me to the monthly newsletter
+           </label>
+
+           <button type="submit">Submit Your Inquiry</button>
+       </form>
+   </main>
+
+   <footer>
+       <p class="copyright">&copy; 2024 Rafting Company Name | Gabe Smedley</p>
+       <nav class="sociallinks">
+           <a href="https://facebook.com">
+               <img src="images/facebook.png" alt="Facebook">
+           </a>
+           <a href="http://twitter.com">
+               <img src="images/twitter.png" alt="Twitter">
+           </a>
+           <a href="https://instagram.com">
+               <img src="images/instagram.png" alt="Instagram">
+           </a>
+       </nav>
+       <a href="link_to_wireframe_image">View Contact Us Wireframe</a>
+   </footer>
+</body>
+</html>
