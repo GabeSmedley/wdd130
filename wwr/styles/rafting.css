@@ -332,12 +332,20 @@ section p {
 
 .exciting-trips,
 .our-trips {
+    text-align: center;
     padding: 20px 40px; 
 }
 
 .trip-description {
-    padding: 0 40px; 
-    margin: 10px 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.trip {
+    text-align: center;
+    margin: 15px;
 }
 
 .trip-image {
@@ -345,4 +353,19 @@ section p {
     max-width: 600px;
     height: auto;
     margin: 10px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+}
+
+.grid-item {
+    text-align: center; 
+}
+
+.trip p {
+    text-align: center;
+    margin: 10px 0;
 }
